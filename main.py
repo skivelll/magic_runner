@@ -328,6 +328,7 @@ if __name__ == '__main__':
                 elif complexity == 3:
                     life = 1
                 scores = 0
+                score_for_life = 0
                 run_status = 'wait'
             elif start[pygame.K_ESCAPE]:
                 game_running = False
